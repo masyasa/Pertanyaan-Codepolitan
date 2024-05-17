@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart</title>
+</head>
+<body>
+    <h3>Daftar Member</h3>
+    <table>
+        <th>
+            <tr>
+                <td>No</td>
+                <td>ID</td>
+                <td>Nama</td>
+                <td>Role</td>
+                <td>Aksi</td>
+            </tr>
+        </th>
+        <tbody id="isiTabel">
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>Anisa</td>
+                <td>Admin</td>
+                <td>
+                    <a href="#" id = "hapus_btn" data-id="1" data-aksi="hapus">hapus</a>
+                    <a href="#" id = "ubah_btn" data-id="1" data-aksi="ubah">ubah</a>
+                    <a href="#" id = "detail_btn" data-id="1" data-aksi="detail">detail</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>Andi</td>
+                <td>Member</td>
+                <td>
+                    <a href="#" id = "hapus_btn" data-id="2" data-aksi="hapus">hapus</a>
+                    <a href="#" id = "ubah_btn" data-id="2" data-aksi="ubah">ubah</a>
+                    <a href="#" id = "detail_btn" data-id="2" data-aksi="detail">detail</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>Anton</td>
+                <td>Admin</td>
+                <td>
+                    <a href="#" id = "hapus_btn" data-id="3" data-aksi="hapus">hapus</a>
+                    <a href="#" id = "ubah_btn" data-id="3" data-aksi="ubah">ubah</a>
+                    <a href="#" id = "detail_btn" data-id="3" data-aksi="detail">detail</a>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>Budi</td>
+                <td>Member</td>
+                <td>
+                    <a href="#" id = "hapus_btn" data-id="4" data-aksi="hapus">hapus</a>
+                    <a href="#" id = "ubah_btn" data-id="4" data-aksi="ubah">ubah</a>
+                    <a href="#" id = "detail_btn" data-id="4" data-aksi="detail">detail</a>
+                </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>5</td>
+                <td>Sukma</td>
+                <td>Member</td>
+                <td>
+                    <a href="#" id = "hapus_btn" data-id="5" data-aksi="hapus">hapus</a>
+                    <a href="#" data-id="5" data-aksi="ubah">ubah</a>
+                    <a href="#" id = "detail_btn" data-id="5" data-aksi="detail">detail</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <button id="prev">
+        Prev
+    </button>
+    <button id="next">
+        Next
+    </button>
+
+    <h5 id="pilihan">
+        <span>
+            <h3>Pilihan:</h3>
+            <h4>Nama :</h4>
+            <h4>ID :</h4>
+            <h4>Aksi :</h4>
+        </span>        
+    </h5>
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jsku.js"></script>
+</body>
+</html>
